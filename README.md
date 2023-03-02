@@ -1,10 +1,10 @@
 ## Hugo
 ```
- use hugo server 
- http://localhost:1313/
+ hugo server 
+ --- http://localhost:1313/
  
- use hugo 
- build public folder
+ hugo 
+ -- build public folder
   
  
 ```
