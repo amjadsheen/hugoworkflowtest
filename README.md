@@ -1,4 +1,4 @@
-## Hugo
+## Hugo Commands
 ```
  hugo server 
  --- http://localhost:1313/
