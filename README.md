@@ -1,20 +1,20 @@
 ## Design: Produce a document that shows how to the structure for our site in Hugo. Elements to address in the design
  Folders:
 ```
-— config
-  	— config.toml [contains site url and Hugo related setting]
-  	—menus.toml [contains menus]
-  	—params.toml [logs etc]
+ config
+  config.toml [contains site url and Hugo related setting]
+  menus.toml [contains menus]
+  params.toml [logs etc]
 
- — content
-	— contains markdown files of content pages/blogs etc
+ content
+  contains markdown files of content pages/blogs etc
 
 — themes 
   — mergebase
 	— static 
-		css
-		js
-		images [logs and other images]
+	   css
+	   js
+	   images [logs and other images]
 ```
 
 ## Which pages will to be broken up into sub pages and what mechanism is used to achieve that
@@ -28,20 +28,26 @@ Can be achieved using
 ## What will be structure of the content folder be? [high level]
 ```
  — content
-	—blog
-	—pages
-	—feared-news
-       —products
+   —blog
+   —pages
+   —feared-news
+   —products
+   -and other folders
 ```
 
 ## What does the structure for our blog pages look like?
 ```
 	— content
-		—blog
-		 —-post-slug
-		   —index.md
-		   images
-		    mage.webp
+	   —blog
+	     -post-slug
+	       index.md
+	       -images
+		 image1-name.webp
+	     -post-2-slug
+	       index.md
+	       -images
+		 image1-name.webp
+		 image2-name.webp
 ```	
 
 ## What does the “front matter” look like for pages and blogs? What will the variables be?
