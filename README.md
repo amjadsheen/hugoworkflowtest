@@ -1,6 +1,6 @@
 ## Design: Produce a document that shows how to the structure for our site in Hugo. Elements to address in the design
  Folders:
-
+```
 — config
   	— config.toml [contains site url and Hugo related setting]
   	—menus.toml [contains menus]
@@ -15,6 +15,7 @@
 		css
 		js
 		images [logs and other images]
+```
 
 ## Which pages will to be broken up into sub pages and what mechanism is used to achieve that
 		
@@ -25,28 +26,30 @@ Can be achieved using
 
 
 ## What will be structure of the content folder be? [high level]
+```
  — content
 	—blog
 	—pages
 	—feared-news
        —products
-    
+```
 
 ## What does the structure for our blog pages look like?
+```
 	— content
 		—blog
-			—-post-slug
-				—index.md
-				images
-					image.webp
-	
+		 —-post-slug
+		   —index.md
+		   images
+		    mage.webp
+```	
 
 ## What does the “front matter” look like for pages and blogs? What will the variables be?
 
-For post:
+# For post:
 Sample:
 content/blog/sca-runtime-protection/index.md
-`
+```
 title: "Patching takes time, sometimes forever. <br>What can you do now?"
 description: This is where MergeBase's SCA Runtime Protection comes in. Java Runtime Protection allows you to block a Java library or a function within it so that it can't
 date: 2023-02-20T23:02:46+00:00
@@ -56,15 +59,18 @@ aliases:
   - /sca-runtime-protection/ # old url for prevent 404
 categories: ['Cyber Security']
 image: "images/SCA-Runtime-Protection.webp"
-`
-===========
-For pages:
+```
+
+
+# For pages:
 Sample: 
+```
 Content/_index.md
  — title
 — description
+```
 
- — and params for page section [added to homepage can check there]
+and params for page section [added to homepage can check there]
 
  
 
